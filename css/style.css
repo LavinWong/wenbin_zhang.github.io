@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+
+
+
 .main-menu ul.navbar-nav li.active a.theme-color{
     color: #44b272;
 }
@@ -24,6 +27,9 @@
 }
 .review-list .owl-dots div.active{
     background: #44b272;
+}
+.about-text a.theme-color{
+    color: #44b272;
 }
 
 /*========================
@@ -136,6 +142,9 @@
 .yellow_color_theme .spiner_button{
     background: #ffd505;
 }
+.yellow_color_theme .about-text a.theme-color{
+    color: #ffd505;
+}
 /*======= end yellow =========*/
 
 /*=========== red ===========*/
@@ -167,6 +176,9 @@
 }
 .red_color_theme .spiner_button{
      background: #DC143C;
+}
+.red_color_theme .about-text a.theme-color{
+    color: #DC143C;
 }
 /*=========== end red ===========*/
 
@@ -201,6 +213,9 @@
 .green_color_theme .spiner_button{
      background: #44b272;
 }
+.green_color_theme .about-text a.theme-color{
+    color: #44b272;
+}
 /*=========== end green ===========*/
 
 /*=========== pink ===========*/
@@ -232,6 +247,9 @@
 }
 .pink_color_theme .spiner_button{
      background: #D2527F;
+}
+.pink_color_theme .about-text a.theme-color{
+    color: #D2527F;
 }
 /*=========== end pink ===========*/
 
@@ -266,6 +284,10 @@
 .purple_color_theme .spiner_button{
      background: #663399;
 }
+.purple_color_theme .about-text a.theme-color{
+    color: #663399;
+}
+
 /*=========== end purple ===========*/
 
 /*=========== blue ===========*/
@@ -298,6 +320,9 @@
 }
 .blue_color_theme .spiner_button{
      background: #4183D7;
+}
+.blue_color_theme .about-text a.theme-color{
+    color: #4183D7;
 }
 /*=========== end red ===========*/
 
@@ -908,5 +933,4 @@ textarea.form-control{
 .footer-text p strong {
   letter-spacing: 1px;
 }
-
 
