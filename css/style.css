@@ -1,39 +1,4 @@
- /*************************************
-
-Template Name: PRIDE - Personal Portfolio Template
-Author: perfect_coders
-Version: 1.0
-Design and Developed by: perfect_coders
-
-NOTE: This is main stylesheet of the template.
-
-****************************************/
-
-
-/*================================================
-            Table of contents  
-==================================================
  
-00. base css
-01. preloader
-02. section title and padding
-03. intro section
-04. about section
-05. service section
-06. quotes area
-07. portfolio section
-08. review section
-09. contact section
-10. footer section
-
-====================================================
-            End table content 
-===================================================*/
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
-
-
-
 .main-menu ul.navbar-nav li.active a.theme-color{
     color: #44b272;
 }
@@ -78,7 +43,23 @@ NOTE: This is main stylesheet of the template.
   margin-top: 20px;
   padding: 0 12px;
 }
-.spiner_button{
+/*.spiner_button{*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    background: #DC143C;*/
+/*    position: absolute;*/
+/*    display: block;*/
+/*    right: -50px;;*/
+/*    top: 0px;*/
+/*    z-index: 99;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    color: #fff;*/
+/*    padding-top: 5px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 0 10px 10px 0;*/
+/*}*/
+ .spiner_button{
     height: 50px;
     width: 50px;
     background: #44b272;
@@ -124,6 +105,8 @@ NOTE: This is main stylesheet of the template.
     background-color: #44b272;
 }
 
+
+
 /*======= yellow =========*/
 .yellow_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
     color: #ffd505;
@@ -148,6 +131,9 @@ NOTE: This is main stylesheet of the template.
   color: #ffd505;
 }
 .yellow_color_theme .review-list .owl-dots div.active{
+    background: #ffd505;
+}
+.yellow_color_theme .spiner_button{
     background: #ffd505;
 }
 /*======= end yellow =========*/
@@ -179,6 +165,9 @@ NOTE: This is main stylesheet of the template.
 .red_color_theme .review-list .owl-dots div.active{
     background: #DC143C;
 }
+.red_color_theme .spiner_button{
+     background: #DC143C;
+}
 /*=========== end red ===========*/
 
 /*=========== green ===========*/
@@ -209,6 +198,9 @@ NOTE: This is main stylesheet of the template.
 .green_color_theme .review-list .owl-dots div.active{
     background: #44b272;
 }
+.green_color_theme .spiner_button{
+     background: #44b272;
+}
 /*=========== end green ===========*/
 
 /*=========== pink ===========*/
@@ -237,6 +229,9 @@ NOTE: This is main stylesheet of the template.
 }
 .pink_color_theme .review-list .owl-dots div.active{
     background: #D2527F;
+}
+.pink_color_theme .spiner_button{
+     background: #D2527F;
 }
 /*=========== end pink ===========*/
 
@@ -268,6 +263,9 @@ NOTE: This is main stylesheet of the template.
 .purple_color_theme .review-list .owl-dots div.active{
     background: #663399;
 }
+.purple_color_theme .spiner_button{
+     background: #663399;
+}
 /*=========== end purple ===========*/
 
 /*=========== blue ===========*/
@@ -297,6 +295,9 @@ NOTE: This is main stylesheet of the template.
 }
 .blue_color_theme .review-list .owl-dots div.active{
     background: #4183D7;
+}
+..blue_color_theme .spiner_button{
+     background: #4183D7;
 }
 /*=========== end red ===========*/
 
