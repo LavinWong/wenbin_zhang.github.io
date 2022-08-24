@@ -1,3 +1,35 @@
+ /*************************************
+
+Template Name: PRIDE - Personal Portfolio Template
+Author: perfect_coders
+Version: 1.0
+Design and Developed by: perfect_coders
+
+NOTE: This is main stylesheet of the template.
+
+****************************************/
+
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+00. base css
+01. preloader
+02. section title and padding
+03. intro section
+04. about section
+05. service section
+06. quotes area
+07. portfolio section
+08. review section
+09. contact section
+10. footer section
+
+====================================================
+            End table content 
+===================================================*/
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
 
 
@@ -462,7 +494,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .welcome-area{
     position: relative;
     background: url(../images/intro-bg.jpg); /*** intro-section background image ***/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -526,7 +558,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: absolute;
     left: 50%;
     margin-left: -25px;
-    bottom: 30px;
+    bottom: 70px;
     width: 50px;
   -webkit-animation: 3s ease 0s normal none infinite running bounce;
           animation: 3s ease 0s normal none infinite running bounce;
@@ -933,4 +965,5 @@ textarea.form-control{
 .footer-text p strong {
   letter-spacing: 1px;
 }
+
 
